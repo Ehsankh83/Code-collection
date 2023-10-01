@@ -10,59 +10,52 @@ body {
     height: 100vh;
   }
   
-  .login-form {
-    width: 400px;
+  .signup-form {
+    width: 300px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .login-form h2 {
+  .signup-form h2 {
     text-align: center;
     margin-bottom: 20px;
   }
   
-  .login-form input[type="text"],
-  .login-form input[type="password"] {
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 50%;
+    border-radius: 5px;
   }
   
-  .login-form button {
+  .signup-form button {
     width: 100%;
     padding: 10px;
-    background-color: #e5a587;
+    background-color: #4caf50;
     color: #fff;
-    border: 2px solid #e5a587;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
   }
   
-  .login-form button:hover {
-    background-color: #ffffff;
-
-    color: #e5a587;
+  .signup-form button:hover {
+    background-color: #45a049;
   }
   
-  .login-form .message {
+  .signup-form .message {
     text-align: center;
   }
   
-  .login-form .message a {
-    color: #a4d0bb;
+  .signup-form .message a {
+    color: #666;
     text-decoration: none;
   }
   
-  .login-form .message a:hover {
-    color: #79a1b0;
-  }
-
-  div{
-    font-size: 10px;
-
-    font-weight: bold;
+  .signup-form .message a:hover {
+    color: #333;
   }
