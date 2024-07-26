@@ -1,0 +1,39 @@
+.ichi{
+    font-size: 60px;
+
+    color: blue;
+}
+
+h2{
+    color: aqua;
+}
+
+.ni{
+    color: red;
+
+    font-size: 40px;
+}
+
+#one{
+    color: rgb(255, 242, 0);
+}
+
+p{
+    font-size: 20px;
+}
+
+.kyuu{
+    font-size: 20px;
+
+    color: rgb(26, 255, 68);
+}
+
+#five{
+    font-size: 15px;
+
+    color: cadetblue;
+}
+
+#three{
+    color: deeppink;
+}
